@@ -1,0 +1,116 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font: arial;
+}
+
+#header {
+  height: 60px;
+  padding: 25px;
+  background-color: white;
+  border-bottom: solid;
+  border-bottom: grey;
+}
+
+#blocRestaurant {
+  background-color: white;
+  justify-content: center;
+}
+
+#headRestaurant {
+  display: flex;
+  background-color: white;
+  width: 1024px;
+  margin: auto;
+  justify-content: center;
+}
+
+#restPresentation {
+  display: bloc;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+p {
+  font: arial;
+  color: grey;
+  font-size: 12px;
+}
+
+#restaurantpic {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.morningMenu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+}
+
+.meals {
+  flex: 1;
+}
+
+.description {
+  text-align: justify;
+  font-size: 12px;
+  color: grey;
+}
+
+.mealContent {
+  display: flex;
+  background-color: white;
+  width: calc(50% - 30px);
+  height: 150px;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0 30px 30px 0;
+}
+
+/* .mealContent:nth-child(odd) {
+  margin-right: 30px;
+} */
+
+.mealContent_img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.mealContent > div {
+  flex: 1;
+}
